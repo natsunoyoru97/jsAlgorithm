@@ -12,5 +12,4 @@ function sumPrimes(num) {
   return arr.reduce((prev, curr) => prev + curr);
 }
 
-var result = sumPrimes(10000);
-console.log(result);
+sumPrimes(10000);
