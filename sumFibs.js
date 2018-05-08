@@ -16,5 +16,4 @@ function sumFibs(num) {
     });
 }
 
-var result = sumFibs(75025);
-console.log(result);
+sumFibs(75025);
