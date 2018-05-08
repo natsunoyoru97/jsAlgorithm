@@ -23,4 +23,4 @@ function addTogether() {
   		return add(arguments[0]);
   	}
 }
-console.log(addTogether(2)([3]));
+addTogether(2)([3]);
