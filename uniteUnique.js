@@ -12,5 +12,4 @@ function uniteUnique(arr) {
   		return args[0].concat(newArr);
   	}
 }
-var result = uniteUnique([1, 3, 2], [1, [5]], [2, [4]]);
-console.log(result);
+uniteUnique([1, 3, 2], [1, [5]], [2, [4]]);
