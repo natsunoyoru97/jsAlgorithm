@@ -24,5 +24,4 @@ function whatIsInAName(collection, source) {
   return arr;
 }
 
-var result = whatIsInAName([{ "a": 1 }, { "a": 1 }, { "a": 1, "b": 2 }], { "a": 1 })
-console.log(result);
+whatIsInAName([{ "a": 1 }, { "a": 1 }, { "a": 1, "b": 2 }], { "a": 1 })
