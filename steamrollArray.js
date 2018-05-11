@@ -5,5 +5,4 @@ function steamrollArray(arr) {
   }, []);;
 }
 
-var result = steamrollArray([1, [], [3, [[4]]]]);
-console.log(result);
+steamrollArray([1, [], [3, [[4]]]]);
