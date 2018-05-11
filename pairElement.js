@@ -18,5 +18,4 @@ function pairElement(str) {
   return arr;
 }
 
-var result = pairElement("GCG");
-console.log(result);
+pairElement("GCG");
